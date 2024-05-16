@@ -298,6 +298,19 @@ main .container .left .profile{
 
 }
 
+.middle .stories .story::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,rgba(0,0,0,1));
+    position: absolute;
+}
+
+.middle .stories .story .name{
+    z-index: 2;
+}
+
 .middle .stories .story{
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
@@ -310,11 +323,110 @@ main .container .left .profile{
     width: 100%;
     position: relative;
     overflow: hidden;
-    /* background: var(--color-danger); */
 }
 
 .middle .stories .story:nth-child(1){
-    background: url("images/profiles/profile-lana-rhoades-1.jpg") no-repeat center center/cover;
+    background: url("images/stories/stories-lana-rhoades-1.jpg") no-repeat center center/cover;
+}
+
+.middle .stories .story:nth-child(2){
+    background: url("images/stories/stories-alexandra-daddario-4.jpg") no-repeat center center/cover;
+}
+
+.middle .stories .story:nth-child(3){
+    background: url("images/stories/stories-elizabeth-olsen-1.jpg") no-repeat center center/cover;
+}
+
+.middle .stories .story:nth-child(4){
+    background: url("images/stories/stories-ana-de-armas-3.jpg") no-repeat center center/cover;
+}
+
+.middle .stories .story:nth-child(5){
+    background: url("images/stories/stories-scarlette-johansson-3.jpg") no-repeat center center/cover;
+}
+
+.middle .stories .story:nth-child(6){
+    background: url("images/stories/stories-sydney-sweeney-4.jpg") no-repeat center center/cover;
+}
+
+.middle .stories .story:nth-child(1):hover{
+
+    cursor: pointer;
+    background: url("images/stories/stories-lana-rhoades-3.gif")no-repeat center center/cover;
+
+    .profile-photo{
+        opacity: 0;
+    }
+    .name{
+        opacity: 0;
+    }
+}
+
+.middle .stories .story:nth-child(2):hover{
+    cursor: pointer;
+    background: url("images/stories/stories-alexandra-daddario-6.gif")no-repeat center center/cover;
+
+    .profile-photo{
+        opacity: 0;
+    }
+    .name{
+        opacity: 0;
+    }
+}
+
+.middle .stories .story:nth-child(3):hover{
+    cursor: pointer;
+    background: url("images/stories/-stories-elizabeth-olsen-2.gif")no-repeat center center/cover;
+
+    .profile-photo{
+        opacity: 0;
+    }
+    .name{
+        opacity: 0;
+    }
+}
+
+.middle .stories .story:nth-child(4):hover{
+    cursor: pointer;
+    background: url("images/stories/stories-ana-de-armas-3.gif")no-repeat center center/cover;
+
+    .profile-photo{
+        opacity: 0;
+    }
+    .name{
+        opacity: 0;
+    }
+}
+
+.middle .stories .story:nth-child(5):hover{
+    cursor: pointer;
+    background: url("images/stories/stories-scarlette-johansson-2.gif")no-repeat center center/cover;
+
+    .profile-photo{
+        opacity: 0;
+    }
+    .name{
+        opacity: 0;
+    }
+}
+
+.middle .stories .story:nth-child(6):hover{
+    cursor: pointer;
+    background: url("images/stories/stories-sydney-sweeney-4.gif")no-repeat center center/cover;
+
+    .profile-photo{
+        opacity: 0;
+    }
+    .name{
+        opacity: 0;
+    }
+}
+
+.middle .story .profile-photo{
+    width: 2rem;
+    height: 2rem;
+    align-self: self-start;
+    border: 3px solid var(--color-primary);
 }
 
 /* STORIES END */
