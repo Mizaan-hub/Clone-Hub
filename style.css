@@ -286,4 +286,39 @@ main .container .left .profile{
 
 /* LEFT END */
 
+/* MIDDLE START */
+
+/* STORIES START */
+
+.middle .stories{
+    display: flex;
+    justify-content: space-between;
+    height: 12rem;
+    gap: 0.5rem;
+
+}
+
+.middle .stories .story{
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 0.75rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /* background: var(--color-danger); */
+}
+
+.middle .stories .story:nth-child(1){
+    background: url("images/profiles/profile-lana-rhoades-1.jpg") no-repeat center center/cover;
+}
+
+/* STORIES END */
+
+/* MIDDLE END */
+
 /* MAIN END */
