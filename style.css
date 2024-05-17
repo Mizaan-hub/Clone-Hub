@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+@media (min-width:992px){
+    html{
+        min-width: 992px;
+    }
+}
+
 :root{
      --color-white : hsl(252, 30%, 100%); 
      --color-light : hsl(252, 30%, 95%); 
@@ -836,7 +842,7 @@ main .container .right{
 
     main .container{
         grid-template-columns: 5rem auto 30vw;
-        gap: 0;
+        gap: 1rem;
     }
 
     .left{
@@ -902,17 +908,6 @@ main .container .right{
         display: none;
     }
 
-}
-
-@media screen and (max-width:750px ) {
-
-    .container{
-        width: 92%;
-    }
-
-    main .container .left{
-        display: none;
-    }
 }
 
 /* MEDIA QUERIES FOR SMALL TABLETS AND MOBILE END */
