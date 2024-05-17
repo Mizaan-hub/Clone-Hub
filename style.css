@@ -911,10 +911,10 @@ main .container .right{
     }
 
     main .container{
-        grid-template-columns: 0 auto 0;
+        grid-template-columns: 0 auto 1rem;
         gap: 0;
     }
-    
+
     main .container .left{
         display: none;
     }
