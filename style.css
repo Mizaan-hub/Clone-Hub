@@ -911,7 +911,7 @@ main .container .right{
     }
 
     main .container{
-        grid-template-columns: 0 auto 1rem;
+        grid-template-columns: 1rem auto 1rem;
         gap: 0;
     }
 
