@@ -474,12 +474,14 @@ main .container .left .profile{
 .middle .feed .user{
     display: flex;
     gap :1rem;
+    cursor: pointer;
 }
 
 .middle .feed .photo{
     border-radius: var(--card-border-radius);
     overflow: hidden;
     margin: 0.7rem 0;
+    cursor: pointer;
 }
 
 .middle .feed .action-buttons{
@@ -492,9 +494,11 @@ main .container .left .profile{
 
 .middle .liked-by{
     display: flex;
+    
 }
 
 .middle .liked-by span{
+    cursor: pointer;
     width: 1.4rem;
     height: 1.4rem;
     display: block;
@@ -510,6 +514,15 @@ main .container .left .profile{
 
 .middle .liked-by p{
     margin-left: 0.5rem;
+}
+
+.middle .feed .comment{
+    cursor: pointer;
+}
+
+.middle .feed .hash-tag{
+    color: var(--color-primary);
+    cursor: pointer;
 }
 
 /* FEEDS END */
@@ -560,9 +573,11 @@ main .container .right{
     text-align: center;
     border-bottom: 4px solid var(--color-light);
     padding-bottom: 0.5rem;
+    cursor: pointer;
 }
 
 .right .messages .category .active{
+    cursor: not-allowed;
     border-color: var(--color-primary);
 }
 
@@ -571,6 +586,7 @@ main .container .right{
     gap: 1rem;
     margin-bottom: 1rem;
     align-items: start;
+    cursor: pointer;
 }
 
 .right .message .profile-photo{
@@ -623,6 +639,14 @@ main .container .right{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.right .request .info img{
+    cursor: pointer;
+}
+
+.right .request .info h5{
+    cursor: pointer;
 }
 
 .right .request .action{
