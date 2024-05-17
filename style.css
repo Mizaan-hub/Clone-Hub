@@ -364,7 +364,7 @@ main .container .left .profile{
 
 .middle .stories .story:nth-child(2):hover{
     cursor: pointer;
-    background: url("images/stories/stories-alexandra-daddario-6.gif")no-repeat center center/cover;
+    background: url("images/stories/stories-alexandra-daddario-2.gif")no-repeat center center/cover;
 
     .profile-photo{
         opacity: 0;
