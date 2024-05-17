@@ -904,4 +904,14 @@ main .container .right{
 
 }
 
+@media screen and (max-width:750px ) {
+
+    .container{
+        width: 92%;
+    }
+    main .container .left{
+        display: none;
+    }
+}
+
 /* MEDIA QUERIES FOR SMALL TABLETS AND MOBILE END */
