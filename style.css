@@ -836,7 +836,7 @@ main .container .right{
 
     main .container{
         grid-template-columns: 5rem auto 30vw;
-        gap: 1rem;
+        gap: 0;
     }
 
     .left{
