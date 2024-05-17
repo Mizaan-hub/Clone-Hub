@@ -909,6 +909,12 @@ main .container .right{
     .container{
         width: 92%;
     }
+
+    main .container{
+        grid-template-columns: 0 auto 0;
+        gap: 0;
+    }
+    
     main .container .left{
         display: none;
     }
