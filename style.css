@@ -41,6 +41,7 @@ body{
     color: var(--color-dark);
     background: var(--color-light);
     overflow-x: hidden;
+    min-width: 992px;
 }
 
 /* GENERAL STYLES */
